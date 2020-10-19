@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+ul, ol{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #000;
+    margin: 0px;
+}
+/* ----- Website CSS codes start from here ----- */
+.main-header{
+    background: #fcdb00;
+}
+.bg-light{
+    background: transparent !important;
+    padding: 40px 0px;
+}
+.nav-item{
+    padding-left: 40px;
+}
+.nav-item a, .nav-item a:hover{
+    font-size: 21px;
+    font-weight: bold;
+    color: #010101 !important;
+}
+/* ----- Banner CSS Starts ------ */
+.banner-section{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.banner-text-inner{
+    padding-top: 70px;
+}
+.banner-text-inner h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.banner-text-inner h5{
+    font-size: 19px;
+    width: 69%;
+    padding-bottom: 20px;
+}
+.banner-text-inner p{
+    width: 69%;
+}
+.banner-text-inner a .fa{
+    font-size: 45px;
+    padding-right: 25px;
+}
+.ipad{
+    float: right;
+    margin-right: 40px;
+}
+/* ----- Features section CSS starts ----- */
+.feature-header{
+    text-align: center;
+    padding: 90px 0px 50px;
+}
+.feature-header h2{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.feature-header p{
+    color: #313841;
+    font-size: 21px;
+}
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-container .fa{
+    font-size: 50px;
+    padding-right: 20px;
+}
+.feature-inner{}
+.feature-inner h5{
+    font-size: 22px;
+    font-weight: 500;
+    color: #010101;
+    padding-bottom: 10px;
+}
+.feature-inner p{
+    width: 80%;
+    font-size: 16px;
+    color: #898989;
+}
+.row-n2{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+/* ----- Footer section CSS starts ----- */
+.main-footer{
+    background: #010101;
+}
+.footer-header{
+    padding: 90px 0px 30px;
+}
+.footer-header h2{
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footer-header p{
+    color: #898989;
+    font-size: 20px;
+}
+.email-form{
+    padding-bottom: 80px;
+}
+.email-form .email{
+    padding: 10px;
+    margin-right: 15px;
+    width: 54%;
+    border-radius: 5px;
+    border: none;
+}
+.email-form input::placeholder{
+    color: #898989;
+    font-size: 16px;
+}
+.email-form .btn{
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: #fcdb00;
+    border: none;
+    outline: none;
+    margin-bottom: 3px;
+}
+.social-icons{}
+.social-icons a .fa{
+    color: #fcdb00;
+    font-size: 42px;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+.bottom-text-container{
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 130px;
+}
+.bottom-text-container ul li a{
+    font-size: 16px;
+    color: #fff;
+}
