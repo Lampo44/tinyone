@@ -157,3 +157,154 @@ a, a:hover{
     font-size: 16px;
     color: #fff;
 }
+/* Extra CSS codes for more responsiveness */
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .feature-header p{
+        font-size: 18px;
+    }
+    .feature-inner p{
+        width: 100%;
+        line-height: 22px;
+    }
+    .footer-header p{
+        font-size: 18px;
+    }
+    .email-form{
+        padding-bottom: 40px;
+    }
+    .social-icons a .fa{
+        margin-bottom: 50px;
+    }
+    .bottom-text-container{
+        padding-bottom: 65px;
+    }
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .banner-section{
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .banner-text-inner{
+        padding-top: 0px;
+    }
+    .ipad{
+        margin-right: 5px;
+    }
+    .feature-header{
+        padding: 50px 0px;
+    }
+    .feature-inner{
+        margin-bottom: 35px;
+    }
+    .feature-inner p{
+        width: 100%;
+    }
+    .row-n2{
+        padding: 0px;
+    }
+    .footer-header p{
+        font-size: 24px;
+    }
+    .email-form .email{
+        width: 70%;
+    }
+    .email-form{
+        padding-bottom: 20px;
+    }
+    .social-icons a .fa{
+        margin-bottom: 50px;
+    }
+    .bottom-text-container{
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .bottom-text-container p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .bottom-text-container ul li a{
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .banner-section{
+        padding-top: 0px;
+    }
+    .banner-text-inner{
+        padding-top: 0px;
+    }
+    .banner-text-inner h5{
+        width: 100%;
+    }
+    .banner-text-inner p{
+        width: 100%;
+    }
+    .ipad{
+        margin-right: -14px;
+    }
+    .banner-text-inner a .fa{
+        margin-bottom: 40px;
+    }
+    .banner-section{
+        padding-bottom: 50px;
+    }
+    .feature-header{
+        padding: 50px 0px;
+    }
+    .feature-container{
+        padding: 10px 0px;
+    }
+    .row-n2{
+        padding: 0px;
+    }
+    .email-form{
+        padding-bottom: 15px;
+    }
+    .email-form .email{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .social-icons a .fa{
+        margin-bottom: 15px;
+    }
+    .bottom-text-container{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+  }
